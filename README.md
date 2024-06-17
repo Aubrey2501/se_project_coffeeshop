@@ -17,7 +17,7 @@ Welcome to the Coffee Shop Website project! This project showcases a fictional c
 
 ## Project Overview
 
-This project is a simple, static website built using HTML and CSS. It is designed to provide a welcoming online presence for the Tripple Picks Coffee Shop, offering visitors information about the shop, recipes for home brewing, and a form to book a table.
+This project is a simple, static website built using HTML and CSS. It is designed to provide a welcoming online presence for the Tripple Picks Coffee Shop, offering visitors information about the shop, recipes for home brewing, menu and a form to book a table.
 
 ## Project Features
 
@@ -39,12 +39,16 @@ This project is a simple, static website built using HTML and CSS. It is designe
 project-root
 │
 ├── index.html # Main HTML file
-├── css
+├── pages
 │ └── index.css # Main CSS file
 ├── images
 │ ├── logo_coffeeshop_dark.svg
 │ ├── inside_coffee_shop.png
 │ └── background_header.svg
+├── blocks
+│ ├── page.css # Formats and properties of the main page and the header
+│ ├── recipes.css # Properties of Recipes section elements
+│ └── reservations # Properties of Reservation section elements
 └── vendor
 └── normalize.css # CSS reset file
 
