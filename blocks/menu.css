@@ -1,0 +1,78 @@
+.menu {
+  padding: 100px 0 100px;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__title {
+  text-align: center;
+  margin: 0 0 24px;
+  max-width: 780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  text-align: center;
+  margin: 0 0 100px;
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 100px;
+  list-style-type: none;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card__title {
+  margin: 0 0 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card__list-item {
+  margin-top: 16px;
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-devider {
+  border-bottom: 1px black dotted;
+  flex-grow: 1;
+}

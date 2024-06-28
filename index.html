@@ -7,7 +7,6 @@
     <meta name="description" content="Tripple Picks Coffe Shop" />
     <meta name="author" content="E.Petrov" />
     <meta name="keywords" content="cofee, coffe-shop" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -163,11 +162,159 @@
           </form>
         </section>
 
-        <section class="menu" id="menu"></section>
-        <section class="about" id="about"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <ul class="menu__cards">
+            <li class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular (12 oz.)
+                  <span class="card__list-devider"></span>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz.)
+                  <span class="card__list-devider"></span>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz.)
+                  <span class="card__list-devider"></span>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Party size (24 oz., decaf)
+                  <span class="card__list-devider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced coffee (16 oz.)
+                  <span class="card__list-devider"></span>
+                  $1.25
+                </li>
+              </ul>
+            </li>
+
+            <li class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Machiatto
+                  <span class="card__list-devider"></span>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-devider"></span>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-devider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-devider"></span>
+                  $10
+                </li>
+              </ul>
+            </li>
+
+            <li class="card">
+              <h3 class="card__title">Backed goods</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <span class="card__list-devider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <span class="card__list-devider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <span class="card__list-devider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake &nbsp&nbsp&nbsp
+                  <span class="card__list-devider"></span>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <span class="card__list-devider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug'uette
+                  <span class="card__list-devider"></span>
+                  $0.25
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section class="about" id="about">
+          <p class="about__title">About the coffee shop</p>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+          <ul class="about__content">
+            <li class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </li>
+            <li class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </li>
+            <li class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </li>
+          </ul>
+        </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo logo_coffeeshop_light"
+            class="footer__logo"
+          />
+          <h4 class="footer__social-heading">Social media</h4>
+          <ul class="footer__social-list">
+            <li class="footer__list-item">
+              <img
+                src="./images/facebook_white.svg"
+                alt="facebook_white"
+                class="footer__social-icon"
+              />
+              <p class="footer__social-link">Facebook</p>
+            </li>
+
+            <li class="footer__list-item">
+              <img
+                src="./images/instagram_white.svg"
+                alt="instagram_white"
+                class="footer__social-icon"
+              />
+              <p class="footer__social-link">Instagram</p>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__copyright">&copy; E.Petrov 2024</div>
+      </footer>
     </div>
   </body>
 </html>
