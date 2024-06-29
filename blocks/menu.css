@@ -45,7 +45,7 @@
 }
 
 .card {
-  width: 540px;
+  max-width: 540px;
 }
 
 .card__list {
