@@ -30,6 +30,7 @@
   line-height: 30px;
   text-indent: 15px;
   box-sizing: border-box;
+  border-block-color: #838383;
 }
 
 .form__input::placeholder {
@@ -49,6 +50,11 @@ input[id="datetime"] {
   color: #ffffff;
   transition: opacity 1s ease;
   border: none;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button:hover {
@@ -59,11 +65,6 @@ input[id="datetime"] {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__checkbox {
