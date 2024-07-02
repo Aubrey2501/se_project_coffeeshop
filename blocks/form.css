@@ -39,7 +39,7 @@
   color: #838383;
 }
 
-input[id="datetime"] {
+.form__input-datetime {
   color: #000000;
 }
 
