@@ -8,17 +8,19 @@
 
 .footer__content {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap-reverse;
   justify-content: space-between;
-  align-content: space-between;
+  text-align: start;
   margin-bottom: 108px;
-  height: 98px;
 }
 
 .footer__logo {
   width: 105px;
   height: 39px;
+}
+
+.footer__social {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer__social-heading {
@@ -44,12 +46,6 @@
   margin-bottom: 0;
 }
 
-.footer__social-icon {
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-}
-
 .footer__social-link {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
@@ -59,13 +55,21 @@
   line-height: 20px;
   color: #ffff;
   transform: color 0.5 linear;
+  border-style: none;
+  box-sizing: border-box;
 }
 
 .footer__social-link:hover {
   color: #c1c1c1;
 }
 
-.footer_copyrigt {
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer_copyright {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
